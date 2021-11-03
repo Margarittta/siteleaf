@@ -99,18 +99,11 @@ p {
 .photo {
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 180px;
     
   }
 
-  .photo_secondary {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
-    
-  }
-
-  .button { /*кнопка*/
+.button { /*кнопка*/
     background-color: #bd4d4d; 
     border-radius: 5px;
     color: white;
@@ -127,18 +120,19 @@ p {
     background-color: rgb(219, 30, 156);
     }
 
-    .button_secondary { /*кнопка*/
-        background-color: #bd4d4d; 
-        border-radius: 5px;
-        color: white;
-        padding: 15px 70px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 12px;
-        margin: 2px;
+.button_secondary { /*кнопка*/
+    background-color: #bd4d4d; 
+    border-radius: 5px;
+    color: white;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px;
         
         }
-        .button_secondary:hover { /*смена цвета*/
-            background-color: rgb(84, 219, 30);
-            }
+.button_secondary:hover { /*смена цвета*/
+    background-color: rgb(84, 219, 30);
+
+    }
